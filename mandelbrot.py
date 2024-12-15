@@ -26,7 +26,7 @@ def mandelbrot_set(x, y):
 
 x = np.linspace(-2, 1, rows)
 y = np.linspace(-1, 1, cols)
-m = result(x, y)
+m = mandelbrot_set(x, y)
 # plt.xlabel("Re(c)")
 # plt.ylabel("Im(c)")
 # plt.imshow(m.T, cmap = "magma")
